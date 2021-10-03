@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "name": "figma-imports",
+  "version": "2.0.0",
+  "main": "./index.ts",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "node --unhandled-rejections=warn --experimental-modules --experimental-json-modules --es-module-specifier-resolution=node --loader ts-node/esm ./index.ts"
+  },
+  "dependencies": {
+    "axios": "^0.21.4",
+    "change-case": "^4.1.2",
+    "dotenv": "^10.0.0",
+    "svgo": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/svgo": "^2.4.2",
+    "@typescript-eslint/eslint-plugin": "^4.31.1",
+    "@typescript-eslint/parser": "^4.31.2",
+    "eslint": "^7.32.0",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  }
+}
